@@ -71,6 +71,42 @@
       line-height: 1.65;
     }
 
+    img {
+      display: inline-block;
+    }
+
+    @media (min-width:  300px) {
+      main, header {
+        padding: 0 15px 0;
+      }
+
+      img.first {
+        padding-right: 0;
+        width: 100%;
+      }
+
+      img.second {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      img.first {
+        padding-right: 4px;
+        width: 49.25%;
+      }
+
+      img.second {
+        width: 49.25%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      main, header {
+        padding: 0;
+      }
+    }
+
   </style>
 </head>
 
@@ -94,8 +130,9 @@
           <br><a href="https://www.linkedin.com/in/laura-ghantous-142b9911/" target="_blank">Laura Ghantous</a></p> 
         <p style="margin-bottom: 45px;">Until then, we’ll see you on the next adventure.</p> 
         <hr>
-        <p style="margin-top: 45px;"><em>Below is a selection of rC's greatest hits. And don't worry—<a href="http://durhamipsum.com/" target="_blank">Durham Ipsum will live on.</a></em></p>
-        <img src="rC-Selected-Portfolio-Works.jpg" style="padding-top: 40px;">
+        <p style="margin-top: 45px; margin-bottom: 40px;"><em>Below is a selection of rC's greatest hits. And don't worry—<a href="http://durhamipsum.com/" target="_blank">Durham Ipsum will live on.</a></em></p>
+        <img src="rC-Works-1.jpg" class="first">
+        <img src="rC-Works-2.jpg" class="second">
   </main>
   <footer></footer>
 
